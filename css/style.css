@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    
+}
+
+header, footer {
+        text-align: center;
+        padding: 15px;
+    
+}
+
+main {
+    max-width: 650px;
+    margin: auto;
+    padding: 15px;
+
+    section {
+        background: white;
+        border: 1px solid #ccc;
+        padding: 15px;
+        margin-bottom: 15px;
+
+        h2 {
+            margin-top: 0;
+        }
+
+        button {
+            padding: 8px 12px;
+            cursor: pointer;
+        }
+
+        img {
+            width: 100%;
+            max-width: 350px;
+            cursor: pointer;
+        }
+
+        #hoverArea, #moveArea {
+            padding: 25px;
+            border: 1px solid #aaa;
+        }
+
+        #moveArea {
+            height: 100px;
+            }
+        }
+}
